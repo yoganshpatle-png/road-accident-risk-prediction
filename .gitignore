@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+# generated artefacts
+models/*.joblib
+outputs/*
+data/processed/*
+data/raw/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/.gitkeep
